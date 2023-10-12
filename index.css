@@ -1,0 +1,378 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.screen {
+    background-color: #FBE8CC;
+}
+.naveg {
+    background-color: #60605E;
+    text-align: center;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;    
+}
+.naveg a  {
+    color: #D4BD9B;
+    width: 15%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-weight: bold; /* Aplica negrita al texto */
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 0px; /* Margen izquierdo para separar los elementos */
+    margin-right: 0px; /* Elimina el margen derecho predeterminado */
+   
+}
+/* Estilos para los elementos de navegación en la derecha */
+.naveg .right-nav {
+    margin-left: 20px; /* Margen izquierdo para separar los elementos */
+    margin-right: 5px;
+    align-items: end;
+}
+.pagina-actual .right-nav {
+    color: #000;
+}
+.pagina-actual .botonizq {
+    color: #000;
+    
+}
+.naveg a:hover {
+    color: #000; /* Cambia el color del texto cuando se pasa el mouse */
+}
+.page {
+  padding-top: 70px;
+  margin-left: 240px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;  
+}
+.carta_home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+    box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 50%;
+    height: 60%;
+    background-color: #D4BD9B;
+    text-align: center;
+    border: 4px solid black;
+    overflow: hidden;  
+}
+.carta_home_edu { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+    box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.25);
+    padding: 15px 50px 15px 50px;
+    border-radius: 25px;
+    width: 50%;
+    height: 60%;
+    background-color: #D4BD9B;
+    text-align: center;
+    border: 4px solid black;
+    margin-bottom: auto;
+    overflow: hidden;
+}
+.carta_home_exp { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+    box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.25);
+    padding: 15px 50px 15px 50px;
+    border-radius: 25px;
+    width: 50%;
+    height: 60%;
+    background-color: #D4BD9B;
+    text-align: center;
+    border: 4px solid black;
+    margin-bottom: auto;
+    overflow: hidden;
+}
+.carta_home_com {
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+    box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.25);
+    padding: 15px 50px 15px 50px;
+    border-radius: 25px;
+    width: 50%;
+    height: 60%;
+    background-color: #D4BD9B;
+    text-align: center;
+    border: 4px solid black;
+    margin-bottom: auto;
+    overflow: hidden;    
+}
+.carta_home_dp { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+    box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.25);
+    padding: 15px 50px 15px 50px;
+    border-radius: 25px;
+    width: 50%;
+    height: 60%;
+    background-color: #D4BD9B;
+    text-align: center;
+    border: 4px solid black;
+    margin-bottom: auto;
+    line-height: 0.5;
+    overflow: hidden;    
+}
+.titulodp{
+margin: 1px;
+}
+.circle_img{ 
+    height: 210px;
+    width: 210px;
+    border: 4px solid #000000;
+    border-radius: 50%;
+}
+h1, h2, h3, h4 {
+    text-align: center;
+}
+h1 {
+    font-size: 2.8em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+h4 {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+/*diseños para celular*/
+
+@media only screen and (max-width: 1366px) {
+    .naveg {
+            
+           
+            width: 100%;
+            align-items: center;            
+            display: flex;
+            background-color: #60605E;
+            height: 70%;
+            padding-top: 10px;           
+          }    
+          .carta_home {
+            padding: 15px 50px 15px 50px;
+            background: #D4BD9B;           
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+            justify-content: space-around;
+            font-size: 100%;
+            width: 50%;
+            height: 60%;           
+          }
+          .carta_home_dp {
+            padding: 15px 50px 15px 50px;
+            background: #D4BD9B;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+            justify-content: space-around;
+            font-size: 100%;
+            width: 50%;
+            height: 60%;            
+          }
+          .carta_home_exp {
+            padding: 15px 50px 15px 50px;
+            background: #D4BD9B;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            overflow: hidden;           
+            justify-content: space-around;
+            font-size: 100%;
+            width: 50%;
+            height: 60%;          
+          }          
+          .carta_home_edu {
+            padding: 15px 50px 15px 50px;
+            background: #D4BD9B;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            overflow: hidden;            
+            justify-content: space-around;
+            font-size: 70%;
+            width: 50%;
+            height: 60%;          
+          }
+          .carta_home_com {
+            padding: 15px 50px 15px 50px;
+            background: #D4BD9B;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            overflow: hidden;            
+            justify-content: space-around;
+            font-size: 70%;
+            width: 50%;
+            height: 60%;            
+          }
+          .circle_img{
+            height: 35%;
+            width: 30%;
+          }
+    }
+
+    @media only screen and (max-width: 1030px) {
+        .naveg {            
+            padding: 0px 0px 0px 0px;
+            width: 100%;
+            align-items: center;            
+            vertical-align: middle;
+            display: flex;
+            background-color: #60605E;
+            height: 70%;
+            padding-top: 20px;
+        }
+         .naveg a{
+            font-size: 13px;
+            width: 100%;
+            height: 100%;
+            overflow:visible;
+            position: relative;           
+            font-weight: bold;
+            padding: 5px 5px;
+            margin-bottom: 15px;
+            border: 5px;
+            padding-right: 10px;
+          }          
+            .carta_home {
+                padding: 15px 50px 15px 50px;
+                background: #D4BD9B;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                overflow: hidden;
+                margin-bottom: 70px;
+                justify-content: space-around;
+                font-size: 12px;
+                width: 60%;
+                height: 60%;                
+              }
+              .carta_home_dp {
+                padding: 15px 50px 15px 50px;
+                background: #D4BD9B;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                overflow: hidden;
+                margin-bottom: 70px;                
+                justify-content: space-around;
+                font-size: 80%;
+                width: 60%;
+                height: 60%;                
+              }
+              .carta_home_edu {
+                padding: 15px 50px 15px 50px;
+                background: #D4BD9B;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                overflow: hidden;
+                margin-bottom: 70px;                
+                justify-content: space-around;
+                font-size: 10px;
+                width: 60%;
+                height: 60%;                
+              }
+              .carta_home_exp {
+                padding: 15px 50px 15px 50px;
+                background: #D4BD9B;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                overflow: hidden;
+                margin-bottom: 70px;                
+                justify-content: space-around;
+                font-size: 80%;
+                width: 60%;
+                height: 60%;                
+              }
+              .carta_home_com {
+                padding: 15px 50px 15px 50px;
+                background: #D4BD9B;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                overflow: hidden;
+                margin-bottom: 70px;                
+                justify-content: space-around;
+                font-size: 10px;
+                width: 60%;
+                height: 60%;                
+              }     
+              .circle_img{
+                height: 40%;
+                width: 40%;
+              }
+            }
+
+            @media only screen and (max-width: 570px) {
+                .naveg{                
+                padding: 0px 0px 0px 5px;
+                width: 100%;                               
+                vertical-align: middle;
+                display: flex;
+                background-color: #60605E;
+                height: 70%;
+                padding-top: 20px;
+                }
+                .carta_home {
+                    position: static; /* Elimina la posición absoluta */
+                    margin: 20px auto;
+                    width: 50%;
+                    height: 50%;
+                    transform: none;
+                }
+                .carta_home_dp{
+                        position: static;
+                        margin: 0px auto;
+                        width: 50%; 
+                        height: 50%;
+                        transform: none;
+                        font-size: 55%;
+                        line-height:0.9;                        
+                }
+                  .carta_home_edu{
+                    position: static;
+                    margin: 0px auto;
+                    width: 50%;
+                    height: 50%;
+                    transform: none;
+                    font-size: 60%;
+                    margin-top: 10%;
+                  }
+                  .carta_home_exp{
+                    position: static;  
+                    margin: 0px auto; 
+                    width: 50%; 
+                    height: 50%;
+                    transform: none;
+                   }
+                  .carta_home_com{
+                    position: static; 
+                    margin: 0px auto; 
+                    width: 50%; 
+                    height: 50%;
+                    transform: none;
+                    font-size: 55%;
+                  }
+                  .circle_img{
+                    width:70%;
+                    height:70%;
+                  }
+                  .page {
+                    margin-left: 8%;
+                    padding-top: 20px;
+                   
+            }
+            }
