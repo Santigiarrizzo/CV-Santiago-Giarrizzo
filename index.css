@@ -61,7 +61,7 @@ body {
     box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
     width: 50%;
-    height: 75%;
+    height: 60%;
     background-color: #D4BD9B;
     text-align: center;
     border: 4px solid black;
@@ -228,7 +228,7 @@ h4 {
           }
           .circle_img{
             height: 35%;
-            width: 35%;
+            width: 30%;
           }
     }
 
@@ -367,11 +367,12 @@ h4 {
                     font-size: 55%;
                   }
                   .circle_img{
-                    width:90%;
+                    width:70%;
                     height:70%;
                   }
                   .page {
                     margin-left: 8%;
-                    padding-top: 20px;                   
+                    padding-top: 20px;
+                   
             }
             }
