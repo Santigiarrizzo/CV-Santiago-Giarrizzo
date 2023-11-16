@@ -1,0 +1,87 @@
+body {
+  background: #FBE8CC;
+  color: #000;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  align-items: center;
+  flex-direction:column;
+}
+
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+p {
+  display: block;
+}
+.juego {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ 
+}
+
+.juego h1 {
+  margin-bottom: 20px; /* Ajusta según sea necesario */
+}
+
+.juego-container {
+  background-color: #D4BD9B;
+  box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.25);
+  border: 4px solid black;
+  overflow: hidden;
+  padding: 15px 50px;
+  border-radius: 25px;
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+.naveg {
+  background-color: #60605E;
+  text-align: center;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;  /* Distribuye los elementos a lo largo del eje principal */
+}
+
+.naveg a {
+  color: #D4BD9B;
+  width: 100%;  /* Ocupa todo el ancho disponible */
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Estilos para los elementos de navegación en la derecha */
+.naveg .right-nav {
+  margin-left: 20px;
+  margin-right: 5px;
+  align-items: end;
+}
+
+.pagina-actual .right-nav {
+  color: #000;
+}
+
+.pagina-actual .botonizq {
+  color: #000;
+}
+
+.naveg a:hover {
+  color: #000;
+}
